@@ -9,7 +9,7 @@ int main()
 
 	if (grade >= 80)                               //80이상인지 조건 검사를 합니다 80이상이면 printf문를 출력합니다
 		printf("%d는 A학점입니다\n", grade);
-	else if (80 > grade >= 70)
+	else if (  grade <80 && grade >= 70)
 		printf("%d는 B학점입니다\n", grade);       //70이상인지 조건 검사를 합니다 70이상 80미만이면 printf문를 출력합니다
 	else if (grade < 70 && grade >= 60)
 		printf("%d는 C학점입니다\n", grade);       //60이상인지 조건 검사를 합니다 60이상 70미만이면 printf문를 출력합니다
